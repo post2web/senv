@@ -1,10 +1,10 @@
 shared environment
 ======
 
-in development
+In development, do not use.
 
 to install:
-pip ..
+pip install git+git://github.com/post2web/senv@master
 
 to use:
 
