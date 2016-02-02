@@ -12,7 +12,6 @@ class Sdict(dict):
             super(Sdict, self).__init__(self.store.read())
 
     def read_if_changed(self):
-        print 'in read'
         if hash(self) != hash(self.store):
             self.clear()
             self.update(self.store.read())
